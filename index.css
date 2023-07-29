@@ -1,2 +1,60 @@
-body{
+body, html{
+    background-color: white;
+    margin: 0; 
+    padding: 0;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+article{
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 1%;
+}
+
+article a{
+    color: deeppink; 
+    text-decoration: none;
+}
+
+article a:hover{
+    text-decoration: underline;
+}
+
+aside a {
+    color: black; 
+    text-decoration: underline;
+}
+
+aside a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+aside {
+    background-color: antiquewhite;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bold-and-italic{
+    font-weight: bold;
+    font-style: italic;
 }
